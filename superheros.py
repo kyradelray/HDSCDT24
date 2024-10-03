@@ -3,6 +3,8 @@ names= ['Sian', 'Kat','Estelle','Kyra','Austin','Josh','Dylan','Anda','Anna','Sa
 
 import random
 
+random.seed(5)
+
 def generate_superhero_name(inputname):
     adjectives = ["Mighty", "Invisible", "Speedy", "Clever", "Fearless", "Fierce"]
     animals = ["Falcon", "Dragon", "Tiger", "Shark", "Panther", "Wolf"]
